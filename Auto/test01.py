@@ -7,8 +7,20 @@
 # print(ipt)
 
 # 练习
-age = input("请输入年龄：")
-print("您的年龄是："+age)
+# from time import sleep as sys_sleep
+# age = input("请输入年龄：")
+# print("您的年龄是："+age)
+#
+
+
+
+
+from time import sleep as sys_sleep
+def sleep():
+    sys_sleep(3)
+    print("三秒后打印")
+    print("this is I defined sleep() ")
+
 
 
 

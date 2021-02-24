@@ -23,20 +23,22 @@ class MyClass(object):
     def say_hello(self,name):
         return "hello," +name
 # 调用MyClass类
-mc = MyClass()
-print(mc.say_hello("tom"))
-print(MyClass().say_hello("李娇"))
+# mc = MyClass()
+#
+# print(mc.say_hello("tom"))
+# print(MyClass().say_hello("李娇"))
 
-class A:
-    def __init__(self, a, b):
-        self.a = int(a)
-        self.b = int(b)
-    def add(self):
-        return self.a + self.b
-# 调用类的时候需要传入初始化参数
-cout = A(2,'4')
-print(cout.add())
-class B(A):
-    def sub(self, a, b):
-        return a - b
-print(B(100,1).sub(10,1))
+# class A:
+#     def __init__(self, a, b):
+#         self.a = int(a)
+#         self.b = int(b)
+#     def add(self):
+#         return self.a + self.b
+# # 调用类的时候需要传入初始化参数
+# cout = A(2,'4')
+# print(cout.add())
+# class B(A):
+#     def sub(self, a, b):
+#         return a - b
+# print(B(100,1).sub(10,1))
+#

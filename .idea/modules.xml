@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Auto/Auto.iml" filepath="$PROJECT_DIR$/Auto/Auto.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basic/Basic.iml" filepath="$PROJECT_DIR$/Basic/Basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Selenium.iml" filepath="$PROJECT_DIR$/Selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeleniumWebDriverApl/SeleniumWebDriverApl.iml" filepath="$PROJECT_DIR$/SeleniumWebDriverApl/SeleniumWebDriverApl.iml" />
     </modules>
   </component>
 </project>
